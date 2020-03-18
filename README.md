@@ -16,6 +16,7 @@ Esta pensado para correrse en 3 contenedores docker, uno para backend, otro para
 
 ## Uso
 Los contenedores docker van a brindar 3 servicios en los siguientes puertos
-- http://localhost:8080/odata/MyODataServiceServlet.svc/Books?$format=json  => API Endpoint de Odata
+- http://localhost:8080/odata/MyODataServiceServlet.svc/Books?$format=json  => API Endpoint de Odata con coleccion Books
+- http://localhost:8080/odata/MyODataServiceServlet.svc/Users?$format=json  => API Endpoint de Odata con coleccion Users
 - http://localhost:3003        => MySQL
 - http://localhost:3002        => FrontEnd
